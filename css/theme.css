@@ -1,0 +1,30 @@
+/* Theme */
+
+:root {
+  --main-color: #38474f;
+  --accent-color: #ffe57f;
+  --text-color: #FAFAFA;
+}
+
+main {
+	border-top: 4px solid var(--accent-color);
+	background: var(--main-color);
+	border-bottom: 4px solid var(--accent-color);
+	color: var(--text-color);
+}
+
+.icons-social a i {
+	color: var(--text-color);
+}
+
+.icons-social a i:hover {
+	color: var(--accent-color);
+}
+
+.icons-social a svg path{
+	fill: var(--text-color);
+}
+
+.tooltiptext {
+	color: var(--text-color);
+}
